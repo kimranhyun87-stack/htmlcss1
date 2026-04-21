@@ -1,22 +1,57 @@
-* {
-  box-sizing: border-box;
-}
+@charset "utf-8";
 
 body {
-  font-family: 'pretendard',sans-serif;
- }
-
- h1 {
-  font-size: 18px;
-  border: 3px solid #000000;
-  border-radius: 20px;
-  padding: 6px 0;
-  margin: 20px auto;
-  width: 300px;
-  text-align: center;
+  background-image: url(./bg.png);
+  font-size: 16px;
+  color: #333333;
 }
 
-img {
-  display: block;
-  margin: 20px auto;
+header {
+  width: 1240px;
+  margin: 0 auto 44px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0px 16px;
+}
+
+/* header 안에있는 nav 안에있는 ul */
+header nav ul {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #7c5d48;
+  border-bottom: 2px solid #7c5d48;
+  background-color: rgba(255, 255, 255, 0.42);
+  padding: 12px 0px 10px;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #7c5d48;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline double #ed7a92 2px;
+}
+
+div {
+  width: 1240px;
+  margin: 0 auto 50px;
+  display: flex;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+aside {
+  background-color: #c522af;
 }
