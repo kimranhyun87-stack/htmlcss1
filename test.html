@@ -10,7 +10,7 @@
       <div class="innerWrap">
         <h1>
           <img
-            src="./images/hero_text.png"
+            src="./essets/hero_text.png"
             alt="Welcome to Our Wedding Party"
           />
         </h1>
@@ -42,7 +42,8 @@
         </div>
       </section>
       <section class="dateSec" id="dateArea">
-        <h2>Save the Date</h2>
+      <div class="innerWrap">
+         <h2>Save the Date</h2>
         <p><img src="./essets/date_img.jpg" alt="" /></p>
         <p>
           3023.8.8 Thu<br />
@@ -55,18 +56,16 @@
             Ristorante Capita에서<br />
             02-XXXX-XXXX<br />
           </p>
+      </div>
         </section>
       </section>
       <section class="fomSec" id="formArea">
+       <div class="innerWrap">
         <h2>RSVP</h2>
         <form action="">
           <p>
-            <input
-              type="radio"
-              name="attend"
-              value="참석"
-              checked="checked"
-            />참석 <input type="radio" name="attend" value="불참" />불참
+            <input type="radio" name="attend" value="참석"checked="checked"/>참석
+            <input type="radio" name="attend" value="불참" />불참
           </p>
           <p>성함 <input type="text" name="user_name" /></p>
           <p>메일주소 <input type="email" name="user_email" /></p>
@@ -88,6 +87,7 @@
           <p>메세지 <textarea name="message"></textarea></p>
           <p><input type="submit" name="send" /></p>
         </form>
+       </div> 
       </section>
     </main>
     <footer>
